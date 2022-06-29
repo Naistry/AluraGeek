@@ -17,6 +17,10 @@ body{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+img{
+    width: 100%;
+}
 .fw-300{
     font-weight: 400;
 }
@@ -54,7 +58,7 @@ body{
 
 /* header*/
 .container__header{
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -87,7 +91,7 @@ body{
 
 
 .container__banner div{
-  width: 80%;
+  width: 90%;
   margin: 0 auto 2rem auto;
 }
 
@@ -100,14 +104,100 @@ body{
 
 /*productos*/
 .container__productos{
-    width: 80%;
+    width: 90%;
+    margin: 4rem auto;
+    
+}
+
+.container__starwars__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__starwars__img {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   padding: 0;
+}
+.container__starwars__img li{
+    text-align: center;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.5) ;
+    
+}
+
+.container__starwars__img li h3{
+    font-size: 14px;
+    margin: 0;
+}
+
+.container__starwars__img li h2{
+    font-size: 16px;
+    color: #464646;
+    margin: 0;
+}
+
+.container__starwars__img a{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+.m-1{
+    margin: 0 2rem 0 0;
+}
+
+.m-2{
+    margin: 0 0 0 2rem;
+}
+
+/* contacto */
+.container__contacto{
+    background-color: #aec0d8;
+}
+
+.container__form__sections{
+    width: 90%;
     margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+   
+    
+}
+
+.container__form__sections .about-us{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.container__form__sections .about-us div{
+    margin: 1rem;
+}
+.form{
+    margin: 1rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+/* mediaquerys*/
+
+@media (max-width:1200px){
+    .container__starwars__img li:nth-child(6){
+        display: none;
+    }
+}
+
+@media (max-width:1000px){
+    .container__starwars__img li:nth-child(5){
+        display: none;
+    }
 }
 
 
-/* mediaquerys*/
+
 @media (max-width: 768px){
 
- 
+    
+
+
   
 }
