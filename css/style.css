@@ -6,7 +6,7 @@ html{
     box-sizing: inherit;
 }
 body{
-    font-family: 'Lato', sans-serif;
+     font-family: 'Raleway', sans-serif;;
     font-size: 1.6rem;
     line-height: 2;
 }
@@ -18,6 +18,9 @@ body{
     margin-bottom: 2rem;
 }
 
+a{
+    font-weight: 700;
+}
 img{
     width: 100%;
 }
@@ -30,10 +33,12 @@ img{
 .d-block{
     display: block!important;
 }
+
+
 /*botones*/
 .boton{
     
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     text-decoration: none;
     border-style: none;
     display: inline-block;
@@ -63,14 +68,60 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .container__logo{
-    
+    width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
  
+}
+.logo__img{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.container__logo input{
+    width: 75%;
+}
+
+.login__boton{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.boton__header{
+      
+    padding: 2rem 4rem;
+    text-decoration: none;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    display: inline-block;
+    text-align:center;
+    cursor: pointer;
+    background-color: #ffff;
+    
+}
+.boton__header:hover{
+    border: 1px solid black;
+    background-color: #2A7AE4;
+    color: #ffff;
+}
+
+.lupa{
+   
+    background-image: url("../assets/Logos/lupa.svg");
+    background-repeat: no-repeat;
+    background-position: 98%;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+    background-color:#e2e2e2;
+    padding: 1rem 2rem;
 }
 
 /* banner */
@@ -113,8 +164,27 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
+.container__starwars__title a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #2A7AE4;
+    
+}
+
+.container__starwars__title a img{
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+
+.container__starwars__title h1{
+    margin: 1rem 0;
+    
+}
 .container__starwars__img {
    display: flex;
    justify-content: space-between;
@@ -129,18 +199,21 @@ img{
 
 .container__starwars__img li h3{
     font-size: 14px;
+    font-weight: 400;
     margin: 0;
+    color: #464646;
 }
 
 .container__starwars__img li h2{
     font-size: 16px;
-    color: #464646;
+    font-weight: 700;
     margin: 0;
 }
 
 .container__starwars__img a{
     color: #2A7AE4;
     text-decoration: none;
+    font-size: bold;
 }
 .m-1{
     margin: 0 2rem 0 0;
@@ -152,7 +225,7 @@ img{
 
 /* contacto */
 .container__contacto{
-    background-color: #aec0d8;
+    background: #EAF2FD;
 }
 
 .container__form__sections{
@@ -160,6 +233,8 @@ img{
     margin: 0 auto;
     display: flex; 
     justify-content: space-between;
+    align-content: center;
+   
    
     
 }
@@ -168,6 +243,7 @@ img{
     display: flex;
     width: 45%;
     justify-content: space-between;
+    align-content: center;
 }
 .container__form__sections .about-us div{
     margin: 1rem;
@@ -177,6 +253,35 @@ img{
     width: 45%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+}
+#nombre{
+    width: 100%;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    
+}
+#mensaje{
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+
+.form p{
+    margin: 1.6rem 0 0 0;
+    font-weight: bold;
+  
+}
+
+.about-text{
+    color: #464646;
+}
+
+
+/* footer */
+
+.container__footer{
+    text-align: center;
 }
 /* mediaquerys*/
 
