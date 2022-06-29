@@ -1,0 +1,113 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* Reset para REMS -62.5% =10px de 16px*/
+}
+*,*:before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+ /*utilidades*/
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw-300{
+    font-weight: 400;
+}
+.text-align{
+    text-align: center;
+}
+.d-block{
+    display: block!important;
+}
+/*botones*/
+.boton{
+    
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-style: none;
+    display: inline-block;
+    text-align:center;
+    cursor: pointer;
+}
+
+.boton-azul{
+    background-color: #344bb1;
+    color: white;
+}
+
+.boton-azul:hover{
+    background-color: #21317a;
+}
+
+.boton-blanco{
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+/* header*/
+.container__header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+/* banner */
+
+.container__banner{
+    background-image: url(../assets/Logos/banner-image.png);
+    background-position:center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 352px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+
+.container__banner div{
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
+
+.container__banner div h1{
+    font-size: 28px;
+}
+.container__banner div h2{
+    font-size: 20px;
+}
+
+/*productos*/
+.container__productos{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* mediaquerys*/
+@media (max-width: 768px){
+
+ 
+  
+}
