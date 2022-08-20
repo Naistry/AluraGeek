@@ -4,40 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Producto</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
         <main>
             <header class="container__header">
                 <div class="container__logo">
                     <div class="logo__img">
-                    <img src="./assets/Logos/Logo.png" alt="">
+                    <img src="../assets/Logos/Logo.png" alt="">
                     </div>
                     <input type="text" placeholder="¿Qué desea búscar?" class="lupa">
                 </div>
                 <div class="login__boton">
-                  <a href="index.html"><button class="boton__header">Volver</button></a>  
+                  <a href="admi.html"><button class="boton__header">Menú</button></a>  
                 </div>  
             </header>
 
             <section class="login">
                 <form action="" name="form__login" class="form__login">
-                   <h1>Iniciar Sesión</h1>
-                    <input type="text" name="usuario" id="usuario" placeholder="Escriba su correo electrónico" >
-              
-                    <input type="password" name="password" id="password" placeholder="Escriba su contraseña">
-                     <a href="./admi/admi.html">
-                        Entrar
-                     </a>
+                   <h1>Agregar nuevo producto</h1>
+                   <input type="text" name="imagen" id="imagen" placeholder="URL de la imagen">
+                   <input type="text" name="categoria" id="categoria" placeholder="Categoría">
+                   <input type="text" name="producto" id="producto" placeholder="Nombre de Producto">
+                   <input type="number" name="precio" id="precio" placeholder="Precio">
+                   <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escriba un mensaje"></textarea>
+                   <button class="boton boton-azul d-block">Guardar Producto</button>
                 </form>
             </section>
             <section class="seccion container__contacto">
                 <div class="container__form__sections">
                     <div class="about-us">
                         <div>
-                          <a href=""><img src="./assets/Logos/Logo.png" alt=""></a>   
+                          <a href=""><img src="../assets/Logos/Logo.png" alt=""></a>   
                             </div>
      
                     <div class="about-text"> 
